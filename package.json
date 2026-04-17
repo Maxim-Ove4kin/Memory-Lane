@@ -1,23 +1,21 @@
 {
-  "name": "memory-lane",
-  "version": "1.0.0",
-  "description": "История, которую пишем мы, а не алгоритмы соцсетей",
-  "main": "index.html",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite --open"
-  },
-  "keywords": [
-    "memory",
-    "timeline",
-    "pwa",
-    "mobile-first"
-  ],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "vite": "^5.0.0"
-  }
+	"name": "memory-lane",
+	"version": "1.0.0",
+	"private": true,
+	"description": "История, которую пишем мы, а не алгоритмы соцсетей",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "vite --open",
+		"format": "bunx biome format --write .",
+		"check": "bunx biome check --write ."
+	},
+	"keywords": ["memory", "timeline", "pwa", "mobile-first"],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"vite": "^5.0.0"
+	}
 }

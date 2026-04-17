@@ -8,6 +8,7 @@
 - `js/app.js` — основная логика приложения
 - `js/data.js` — управление данными
 - `css/styles.css` — стили
+- `manifest.json` — базовая PWA-конфигурация
 
 ## Навигация
 Роутинг на основе хэша URL (#groups, #timeline, #map, #profile)
@@ -16,6 +17,7 @@
 - Модульная структура JS
 - CSS-переменные для тем (--primary-color, --bg-color)
 - Event-driven архитектура для обновления UI
+- SPA-переключение экранов без отдельного роутера
 
 ## Связи подсистем
 1. UI -> app.js -> data.js -> localStorage
