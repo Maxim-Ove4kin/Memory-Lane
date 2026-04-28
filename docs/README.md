@@ -4,6 +4,8 @@
 
 Memory Lane is a client-side `Vite` application for preserving the shared history of private groups. The application currently works as a lightweight SPA with screen switching in the browser, local persistence through `localStorage`, and a mobile-first interface.
 
+The current product scope is additionally anchored in `PRD.md`, while this file remains the canonical source of the high-level architecture.
+
 ## Main Directories
 
 | Path | Purpose |
@@ -35,6 +37,12 @@ Memory Lane is a client-side `Vite` application for preserving the shared histor
 5. Import and export of project data as JSON.
 6. Theme toggle and mobile bottom navigation.
 
+## Product Scope Notes
+
+1. `PRD.md` confirms the same active product scope as the current SPA: groups, timeline, members, map, badges, JSON transfer, themes, and local browser storage.
+2. AI-assisted text editing remains planned but is not implemented in the current codebase.
+3. PWA positioning is already part of the product story, but the implementation is still partial because offline caching is not yet backed by a `service worker`.
+
 ## Known Architectural Gaps
 
 1. No backend or multi-user synchronization.
@@ -44,4 +52,5 @@ Memory Lane is a client-side `Vite` application for preserving the shared histor
 ## Related Documents
 
 1. `README.md`
-2. `memory_bank/projectbrief.md`
+2. `PRD.md`
+3. `memory_bank/projectbrief.md`
